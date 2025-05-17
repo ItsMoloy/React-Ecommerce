@@ -5,10 +5,9 @@ import {BrowserRouter} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter></BrowserRouter>
       <Nav />
    <h1>Dashboard</h1>
-   </BrowserRouter>
     </div>
   );
 }
